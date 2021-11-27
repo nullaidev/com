@@ -52,6 +52,11 @@ a:hover, a:focus, a:active {
     transform: scale(1.1);
 }
 
+footer {
+    margin-top: 60px;
+    padding-bottom: 60px;
+}
+
 @-webkit-keyframes AnimationName {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}

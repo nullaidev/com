@@ -21,7 +21,13 @@ body {
 
 .description {
     max-width: 450px;
-    text-wrap: pretty;
+    text-wrap: balance;
+}
+
+@supports (text-wrap: pretty) {
+    .description {
+        text-wrap: pretty;
+    }
 }
 
 iframe {

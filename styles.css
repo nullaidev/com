@@ -15,11 +15,28 @@ body {
     animation: AnimationName 25s ease infinite;
 }
 
+.main-content {
+    margin-top: 4rem;
+}
+
+.description {
+    max-width: 450px;
+    text-wrap: pretty;
+}
+
 iframe {
-    aspect-ratio: 600 / 450;
+    aspect-ratio: 1 / 1;
     height: 100%;
     width: 100%;
     max-width: 600px;
+}
+
+.mt-4 {
+    margin-top: 4rem;
+}
+
+.pad-box {
+    padding: 0 20px;
 }
 
 b {

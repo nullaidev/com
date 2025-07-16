@@ -122,6 +122,7 @@ footer {
     backface-visibility: hidden;
     animation: move linear infinite;
     z-index: -1;
+    mix-blend-mode: screen;
 }
 
 .ball:nth-child(odd) {
